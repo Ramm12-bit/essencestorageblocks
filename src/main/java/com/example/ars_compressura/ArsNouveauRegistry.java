@@ -1,7 +1,7 @@
-package com.example.an_addon;
+package com.example.ars_compressura;
 
-import com.example.an_addon.glyphs.TestEffect;
-import com.example.an_addon.registry.ModRegistry;
+import com.example.ars_compressura.glyphs.TestEffect;
+import com.example.ars_compressura.registry.ModRegistry;
 import com.hollingsworth.arsnouveau.api.registry.GlyphRegistry;
 import com.hollingsworth.arsnouveau.api.registry.SpellSoundRegistry;
 import com.hollingsworth.arsnouveau.api.sound.SpellSound;

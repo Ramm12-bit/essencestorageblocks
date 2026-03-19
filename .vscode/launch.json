@@ -6,17 +6,17 @@
       "request": "launch",
       "name": "Client",
       "presentation": {
-        "group": "Mod Development - essencestorageblocks",
+        "group": "Mod Development - Ars Compressura",
         "order": 0
       },
-      "projectName": "essencestorageblocks",
+      "projectName": "Ars Compressura",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@C:\\Users\\pupzz\\Desktop\\Da Files\\Home\\Modding\\noahlol dev\\EssenceStorageBlocks\\essencestorageblocks\\build\\moddev\\clientRunProgramArgs.txt"
+        "@C:\\Users\\pupzz\\Desktop\\Da Files\\Home\\Modding\\noahlol dev\\Ars Compressura\\build\\moddev\\clientRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@C:\\Users\\pupzz\\Desktop\\Da Files\\Home\\Modding\\noahlol dev\\EssenceStorageBlocks\\essencestorageblocks\\build\\moddev\\clientRunVmArgs.txt",
-        "-Dfml.modFolders\u003dan_addon%%C:\\Users\\pupzz\\Desktop\\Da Files\\Home\\Modding\\noahlol dev\\EssenceStorageBlocks\\essencestorageblocks\\bin\\main"
+        "@C:\\Users\\pupzz\\Desktop\\Da Files\\Home\\Modding\\noahlol dev\\Ars Compressura\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dars_compressura%%C:\\Users\\pupzz\\Desktop\\Da Files\\Home\\Modding\\noahlol dev\\Ars Compressura\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
       "env": {},
@@ -28,17 +28,17 @@
       "request": "launch",
       "name": "Data",
       "presentation": {
-        "group": "Mod Development - essencestorageblocks",
+        "group": "Mod Development - Ars Compressura",
         "order": 1
       },
-      "projectName": "essencestorageblocks",
+      "projectName": "Ars Compressura",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@C:\\Users\\pupzz\\Desktop\\Da Files\\Home\\Modding\\noahlol dev\\EssenceStorageBlocks\\essencestorageblocks\\build\\moddev\\dataRunProgramArgs.txt"
+        "@C:\\Users\\pupzz\\Desktop\\Da Files\\Home\\Modding\\noahlol dev\\Ars Compressura\\build\\moddev\\dataRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@C:\\Users\\pupzz\\Desktop\\Da Files\\Home\\Modding\\noahlol dev\\EssenceStorageBlocks\\essencestorageblocks\\build\\moddev\\dataRunVmArgs.txt",
-        "-Dfml.modFolders\u003dan_addon%%C:\\Users\\pupzz\\Desktop\\Da Files\\Home\\Modding\\noahlol dev\\EssenceStorageBlocks\\essencestorageblocks\\bin\\main"
+        "@C:\\Users\\pupzz\\Desktop\\Da Files\\Home\\Modding\\noahlol dev\\Ars Compressura\\build\\moddev\\dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003dars_compressura%%C:\\Users\\pupzz\\Desktop\\Da Files\\Home\\Modding\\noahlol dev\\Ars Compressura\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
       "env": {},
@@ -50,17 +50,17 @@
       "request": "launch",
       "name": "GameTestServer",
       "presentation": {
-        "group": "Mod Development - essencestorageblocks",
+        "group": "Mod Development - Ars Compressura",
         "order": 2
       },
-      "projectName": "essencestorageblocks",
+      "projectName": "Ars Compressura",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@C:\\Users\\pupzz\\Desktop\\Da Files\\Home\\Modding\\noahlol dev\\EssenceStorageBlocks\\essencestorageblocks\\build\\moddev\\gameTestServerRunProgramArgs.txt"
+        "@C:\\Users\\pupzz\\Desktop\\Da Files\\Home\\Modding\\noahlol dev\\Ars Compressura\\build\\moddev\\gameTestServerRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@C:\\Users\\pupzz\\Desktop\\Da Files\\Home\\Modding\\noahlol dev\\EssenceStorageBlocks\\essencestorageblocks\\build\\moddev\\gameTestServerRunVmArgs.txt",
-        "-Dfml.modFolders\u003dan_addon%%C:\\Users\\pupzz\\Desktop\\Da Files\\Home\\Modding\\noahlol dev\\EssenceStorageBlocks\\essencestorageblocks\\bin\\main"
+        "@C:\\Users\\pupzz\\Desktop\\Da Files\\Home\\Modding\\noahlol dev\\Ars Compressura\\build\\moddev\\gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dars_compressura%%C:\\Users\\pupzz\\Desktop\\Da Files\\Home\\Modding\\noahlol dev\\Ars Compressura\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
       "env": {},
@@ -72,17 +72,17 @@
       "request": "launch",
       "name": "Server",
       "presentation": {
-        "group": "Mod Development - essencestorageblocks",
+        "group": "Mod Development - Ars Compressura",
         "order": 3
       },
-      "projectName": "essencestorageblocks",
+      "projectName": "Ars Compressura",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@C:\\Users\\pupzz\\Desktop\\Da Files\\Home\\Modding\\noahlol dev\\EssenceStorageBlocks\\essencestorageblocks\\build\\moddev\\serverRunProgramArgs.txt"
+        "@C:\\Users\\pupzz\\Desktop\\Da Files\\Home\\Modding\\noahlol dev\\Ars Compressura\\build\\moddev\\serverRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@C:\\Users\\pupzz\\Desktop\\Da Files\\Home\\Modding\\noahlol dev\\EssenceStorageBlocks\\essencestorageblocks\\build\\moddev\\serverRunVmArgs.txt",
-        "-Dfml.modFolders\u003dan_addon%%C:\\Users\\pupzz\\Desktop\\Da Files\\Home\\Modding\\noahlol dev\\EssenceStorageBlocks\\essencestorageblocks\\bin\\main"
+        "@C:\\Users\\pupzz\\Desktop\\Da Files\\Home\\Modding\\noahlol dev\\Ars Compressura\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dars_compressura%%C:\\Users\\pupzz\\Desktop\\Da Files\\Home\\Modding\\noahlol dev\\Ars Compressura\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
       "env": {},

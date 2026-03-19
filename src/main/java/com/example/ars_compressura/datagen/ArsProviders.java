@@ -1,8 +1,8 @@
-package com.example.an_addon.datagen;
+package com.example.ars_compressura.datagen;
 
-import com.example.an_addon.ArsNouveauRegistry;
-import com.example.an_addon.ExampleANAddon;
-import com.example.an_addon.glyphs.TestEffect;
+import com.example.ars_compressura.ArsNouveauRegistry;
+import com.example.ars_compressura.ExampleANAddon;
+import com.example.ars_compressura.glyphs.TestEffect;
 import com.hollingsworth.arsnouveau.api.familiar.AbstractFamiliarHolder;
 import com.hollingsworth.arsnouveau.api.ritual.AbstractRitual;
 import com.hollingsworth.arsnouveau.api.spell.AbstractCastMethod;
@@ -31,7 +31,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
-import static com.example.an_addon.datagen.Setup.provider;
+import static com.example.ars_compressura.datagen.Setup.provider;
 import static com.hollingsworth.arsnouveau.setup.registry.RegistryHelper.getRegistryName;
 
 public class ArsProviders {

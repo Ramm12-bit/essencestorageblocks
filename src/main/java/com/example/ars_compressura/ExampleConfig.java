@@ -1,4 +1,4 @@
-package com.example.an_addon;
+package com.example.ars_compressura;
 
 
 import net.neoforged.bus.api.SubscribeEvent;
