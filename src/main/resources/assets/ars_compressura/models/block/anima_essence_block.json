@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "ars_compressura:block/anima_essence_block"
+  }
+}

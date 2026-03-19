@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ars_compressura:fire_essence_block"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "ars_nouveau:fire_essence"
+  }
+}

@@ -1,7 +1,7 @@
 package com.example.ars_compressura;
 
 import com.example.ars_compressura.registry.ModRegistry;
-// import com.example.ars_compressura.registry.EssenceBlocks; // <-- leave this commented until the file exists
+import com.example.ars_compressura.registry.EssenceBlocks;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -25,13 +25,13 @@ public class ArsCompressura {
         ModRegistry.registerRegistries(modEventBus);
         ArsNouveauRegistry.registerGlyphs();
 
-        // ⭐ COMMENTED OUT UNTIL EssenceBlocks.java IS ADDED TO THE PROJECT
-        // EssenceBlocks.BLOCKS.register(modEventBus);
-        // EssenceBlocks.ITEMS.register(modEventBus);
+        
+        EssenceBlocks.BLOCKS.register(modEventBus);
+        EssenceBlocks.ITEMS.register(modEventBus);
 
         modEventBus.addListener(this::setup);
         modEventBus.addListener(this::doClientStuff);
-        NeoForge.EVENT_BUS.register(this);
+        NeoForge.EVENT_BUS.addListener(this::onServerStarting);
     }
 
     public static ResourceLocation prefix(String path) {
@@ -46,8 +46,34 @@ public class ArsCompressura {
 
     }
 
-    @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
         LOGGER.info("HELLO from server starting");
+        try {
+            var server = event.getServer();
+            LOGGER.info("server recipe manager: {}", server.getRecipeManager());
+            var recipeManager = server.getRecipeManager();
+            var crafting = recipeManager.getAllRecipesFor(net.minecraft.world.item.crafting.RecipeType.CRAFTING);
+            long[] count = {0};
+            crafting.forEach(holder -> {
+                var id = holder.id();
+                if (id.getNamespace().equals(MODID)) {
+                    count[0]++;
+                    if (count[0] <= 30) {
+                        LOGGER.info("ars_compressura recipe id: {}", id);
+                    }
+                }
+            });
+            LOGGER.info("ars_compressura crafting recipe count: {}", count[0]);
+
+            var rm = server.getResourceManager();
+            var recipeResourcesRecipes = rm.listResources("data/" + MODID + "/recipes", rl -> rl.toString().endsWith(".json"));
+            var recipeResourcesRecipe = rm.listResources("data/" + MODID + "/recipe", rl -> rl.toString().endsWith(".json"));
+            LOGGER.info("recipe resources for {}/recipes: {}", MODID, recipeResourcesRecipes.size());
+            LOGGER.info("recipe resources for {}/recipe: {}", MODID, recipeResourcesRecipe.size());
+            recipeResourcesRecipes.forEach((rl, r) -> LOGGER.info("resource recipes: {}", rl));
+            recipeResourcesRecipe.forEach((rl, r) -> LOGGER.info("resource recipe: {}", rl));
+        } catch (Exception e) {
+            LOGGER.error("Recipe debug failed:", e);
+        }
     }
 }
