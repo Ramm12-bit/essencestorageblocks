@@ -1,6 +1,6 @@
 package com.example.ars_compressura.datagen;
 
-import com.example.ars_compressura.ExampleANAddon;
+import com.example.ars_compressura.ArsCompressura;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -11,7 +11,7 @@ import net.neoforged.neoforge.data.event.GatherDataEvent;
 
 import java.util.concurrent.CompletableFuture;
 
-@EventBusSubscriber(modid = ExampleANAddon.MODID, bus = EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(modid = ArsCompressura.MODID, bus = EventBusSubscriber.Bus.MOD)
 public class Setup {
     public static CompletableFuture<HolderLookup.Provider> provider;
     public static PackOutput output;

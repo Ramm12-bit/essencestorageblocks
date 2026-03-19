@@ -11,7 +11,7 @@ import javax.annotation.Nonnull;
 
 import java.util.Set;
 
-import static com.example.ars_compressura.ExampleANAddon.prefix;
+import static com.example.ars_compressura.ArsCompressura.prefix;
 
 public class TestEffect extends AbstractEffect {
 

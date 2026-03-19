@@ -12,8 +12,8 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import org.jetbrains.annotations.NotNull;
 
-import static com.example.ars_compressura.ExampleANAddon.MODID;
-import static com.example.ars_compressura.ExampleANAddon.prefix;
+import static com.example.ars_compressura.ArsCompressura.MODID;
+import static com.example.ars_compressura.ArsCompressura.prefix;
 import static net.minecraft.core.registries.Registries.SOUND_EVENT;
 
 public class ModRegistry {

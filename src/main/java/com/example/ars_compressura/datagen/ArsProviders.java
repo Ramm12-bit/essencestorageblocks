@@ -1,7 +1,7 @@
 package com.example.ars_compressura.datagen;
 
 import com.example.ars_compressura.ArsNouveauRegistry;
-import com.example.ars_compressura.ExampleANAddon;
+import com.example.ars_compressura.ArsCompressura;
 import com.example.ars_compressura.glyphs.TestEffect;
 import com.hollingsworth.arsnouveau.api.familiar.AbstractFamiliarHolder;
 import com.hollingsworth.arsnouveau.api.ritual.AbstractRitual;
@@ -36,7 +36,7 @@ import static com.hollingsworth.arsnouveau.setup.registry.RegistryHelper.getRegi
 
 public class ArsProviders {
 
-    static String root = ExampleANAddon.MODID;
+    static String root = ArsCompressura.MODID;
 
     public static class GlyphProvider extends GlyphRecipeProvider {
 
