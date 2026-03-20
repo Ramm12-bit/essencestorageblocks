@@ -2,5 +2,27 @@
 	"ars_compressura.glyph_desc.glyph_test": "This is my test!",
 	"ars_compressura.glyph_name.glyph_test": "Test",
 
-	"item.ars_compressura.star_hat": "Example hat"
+	"item.ars_compressura.abjuration_essence_block": "Abjuration Essence Block",
+	"block.ars_compressura.abjuration_essence_block": "Abjuration Essence Block",
+
+	"item.ars_compressura.air_essence_block": "Air Essence Block",
+	"block.ars_compressura.air_essence_block": "Air Essence Block",
+
+	"item.ars_compressura.anima_essence_block": "Anima Essence Block",
+	"block.ars_compressura.anima_essence_block": "Anima Essence Block",
+
+	"item.ars_compressura.conjuration_essence_block": "Conjuration Essence Block",
+	"block.ars_compressura.conjuration_essence_block": "Conjuration Essence Block",
+	
+	"item.ars_compressura.earth_essence_block": "Earth Essence Block",
+	"block.ars_compressura.earth_essence_block": "Earth Essence Block",
+	
+	"item.ars_compressura.fire_essence_block": "Fire Essence Block",
+	"block.ars_compressura.fire_essence_block": "Fire Essence Block",
+
+	"item.ars_compressura.manipulation_essence_block": "Manipulation Essence Block",
+	"block.ars_compressura.manipulation_essence_block": "Manipulation Essence Block",
+	
+	"item.ars_compressura.water_essence_block": "Water Essence Block",
+	"block.ars_compressura.water_essence_block": "Water Essence Block"
 }
