@@ -1,0 +1,12 @@
+{
+  "values": [
+    "ars_compressura:abjuration_essence_block",
+    "ars_compressura:air_essence_block",
+    "ars_compressura:anima_essence_block",
+    "ars_compressura:conjuration_essence_block",
+    "ars_compressura:earth_essence_block",
+    "ars_compressura:fire_essence_block",
+    "ars_compressura:manipulation_essence_block",
+    "ars_compressura:water_essence_block"
+  ]
+}

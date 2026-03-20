@@ -16,13 +16,16 @@ import com.hollingsworth.arsnouveau.common.datagen.ApparatusRecipeProvider;
 import com.hollingsworth.arsnouveau.common.datagen.GlyphRecipeProvider;
 import com.hollingsworth.arsnouveau.common.datagen.ImbuementRecipeProvider;
 import com.hollingsworth.arsnouveau.common.datagen.patchouli.*;
+import com.hollingsworth.arsnouveau.setup.registry.ItemsRegistry;
 import com.mojang.serialization.JsonOps;
 import net.minecraft.data.CachedOutput;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.DataProvider;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.ItemLike;
 import org.jetbrains.annotations.NotNull;
 
@@ -128,11 +131,11 @@ public class ArsProviders {
         @Override
         public void collectJsons(CachedOutput cache) {
 
-            /*
+            
             recipes.add(new ImbuementRecipe("example_focus", Ingredient.of(Items.AMETHYST_SHARD), new ItemStack(ItemsRegistry.SUMMONING_FOCUS, 1), 5000)
                     .withPedestalItem(ItemsRegistry.WILDEN_TRIBUTE)
             );
-            */
+            
         }
 
         protected Path getRecipePath(Path pathIn, String str) {

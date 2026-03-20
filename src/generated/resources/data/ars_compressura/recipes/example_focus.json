@@ -1,0 +1,16 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "input": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "output": {
+    "count": 1,
+    "id": "ars_nouveau:summon_focus"
+  },
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:wilden_tribute"
+    }
+  ],
+  "source": 5000
+}

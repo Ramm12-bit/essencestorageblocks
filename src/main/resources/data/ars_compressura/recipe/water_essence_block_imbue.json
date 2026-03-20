@@ -1,0 +1,11 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "input": { "item": "ars_nouveau:source_gem_block" },
+  "output": { "id": "ars_compressura:water_essence_block", "count": 1 },
+  "pedestalItems": [
+    { "item": "minecraft:kelp" },
+    { "item": "minecraft:water_bucket" },
+    { "item": "minecraft:snow_block" }
+  ],
+  "source": 8000
+}
